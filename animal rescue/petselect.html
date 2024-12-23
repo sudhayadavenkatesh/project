@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Rescue</title>
+
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="petselect.css"> <!-- Update this with your correct file path -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="pet-selection">
+        <div class="container">
+            <h1>Find Your Perfect Pet</h1>
+            <p>Browse our available pets and find your new best friend!</p>
+
+            <!-- Filter Section -->
+            <div class="filter-options">
+                <form>
+                    <label for="species">Species:</label>
+                    <select id="species">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select>
+
+                    <label for="age">Age:</label>
+                    <select id="age">
+                        <option value="puppy">Puppy</option>
+                        <option value="adult">Adult</option>
+                    </select>
+
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
+            <!-- Pet Profiles -->
+            <div class="pet-profiles">
+                <div class="pet-card">
+                    <img src="dog1.jpg" alt="Max the Dog">
+                    <h3>Max</h3>
+                    <p>Golden Retriever | 3 years | Medium</p>
+                    <button onclick="window.location.href='adopt-form.html'">Adopt Max</button>
+                </div>
+                <div class="pet-card">
+                    <img src="cat1.jpg" alt="Whiskers the Cat">
+                    <h3>Whiskers</h3>
+                    <p>Domestic Shorthair | 2 years | Small</p>
+                    <button onclick="window.location.href='adopt-form.html'">Adopt Whiskers</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

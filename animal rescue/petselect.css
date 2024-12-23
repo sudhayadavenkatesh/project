@@ -1,0 +1,105 @@
+/* Pet Selection Page Styles */
+.pet-selection {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.pet-selection .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.pet-selection h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pet-selection p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.filter-options {
+    margin-bottom: 40px;
+}
+
+.filter-options form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-options label {
+    font-size: 1.1em;
+}
+
+.filter-options select {
+    padding: 8px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.filter-options button {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.filter-options button:hover {
+    background-color: #ff6f00;
+}
+
+.pet-profiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.pet-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.pet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pet-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.pet-card p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.pet-card button {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pet-card button:hover {
+    background-color: #ff6f00;
+}
